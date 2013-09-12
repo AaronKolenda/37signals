@@ -160,8 +160,12 @@ line-height: 20px;
 	overflow: auto;
 	}
 	
-.info {
-	height:450px;
+.bottomwrapper {
+	height:70%;
+}
+
+.topwrapper {
+	height:30%;
 }
 	
 img.displayed  {
