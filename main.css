@@ -90,7 +90,7 @@ h2 {
 	font-weight: 500;
 	letter-spacing: -2px;
 	line-height: 58px;
-	margin-bottom: 20px;
+	margin-bottom:20px;
 }
 
 h5 {
@@ -152,12 +152,17 @@ line-height: 20px;
 }
 
 .center {
+	position: relative;
 	text-align: center;
 	margin: auto;
 	width: 65%;
 	min-width: 800px;
 	overflow: auto;
 	}
+	
+.info {
+	height:450px;
+}
 	
 img.displayed  {
 	display: block;
@@ -182,7 +187,7 @@ img.displayed  {
 	border: 1px solid rgb(232, 232, 232);
 	padding: 15px 15px 0px 15px;
 	box-shadow: rgb(239, 239, 239) 0;
-	overflow: auto;
+	overflow: none;
 	}
 	
 .links {
@@ -217,18 +222,18 @@ text-align: center;
 
 .basearrow {
 position: absolute;
-top:265px;
-left:400px;
+top: -25px;
+right: -25px;
 }
 
 .higharrow {
 position: absolute;
-top:265px;
-left:625px;
+top: -25px;
+right: -25px;
 }
 
 .camparrow {
 position: absolute;
-top:265px;
-left:685px;
+top: -25px;
+right: 145px;
 }
