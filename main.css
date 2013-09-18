@@ -58,8 +58,10 @@ table {
 	border-spacing: 0;
 }
 
+/* CSS reset is above. My CSS starts here */
+
 body {
-  background: #fff;
+	background: #fff;
 	padding: 30px;
 	font-family: "ProximaNova", Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
 	font-size: 18px;
@@ -68,19 +70,19 @@ body {
 }
 
 h1{
-clear: both;
-color: rgb(34, 34, 34);
-font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-letter-spacing: -1px;
-line-height: 40px;
-margin-bottom: 19px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 10px;
-text-align: center;
+	clear: both;
+	color: rgb(34, 34, 34);
+	font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: -1px;
+	line-height: 40px;
+	margin-bottom: 19px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	text-align: center;
 }
 
 h2 {
@@ -94,25 +96,26 @@ h2 {
 }
 
 h5 {
-color: rgb(34, 34, 34);
-font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
-font-size: 15px;
-line-height: 21px;
-margin-top: 5px;
-text-align: center;
-font-weight: 400;
+	color: rgb(34, 34, 34);
+	font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
+	font-size: 15px;
+	line-height: 21px;
+	margin-top: 5px;
+	text-align: center;
+	font-weight: 400;
 }
 
-span {
-color: rgb(51, 102, 153);
-font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-letter-spacing: -1px;
-line-height: 46px;
-text-align: center;
-text-decoration: underline;
+/*Some text within the heading h1s */
+span { 
+	color: rgb(51, 102, 153);
+	font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: -1px;
+	line-height: 46px;
+	text-align: center;
+	text-decoration: underline;
 }
 
 #container  {
@@ -142,30 +145,28 @@ text-decoration: underline;
 	float: right;
 }
 
-
-.day {
-float:left;
-color: rgb(153, 153, 153);
-font-size: 12px;
-font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
-line-height: 20px;
+/* To display the "Happy "Day"" greeting in top left*/
+.day { 			
+	float:left;
+	color: rgb(153, 153, 153);
+	font-size: 12px;
+	font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
+	line-height: 20px;
 }
 
-.center {
+/* Used to center the three boxes that are within this div*/
+.center {  		
 	position: relative;
 	text-align: center;
 	margin: auto;
 	width: 65%;
 	min-width: 800px;
 	overflow: auto;
-	}
-	
-.bottomwrapper {
-	height:70%;
 }
 
+/* To make the height of the heading fixed*/
 .topwrapper {
-	height:30%;
+	min-height:100px;
 }
 	
 img.displayed  {
@@ -174,9 +175,10 @@ img.displayed  {
 	margin: auto;
 	padding-top: 35px;
 	padding-bottom: 10px;
-	}
+}
 	
-.test{
+/* The three boxes in center of page*/
+.box{		
 	display: inline-block;
 	position: relative;
 	margin-top: 35px;
@@ -192,9 +194,10 @@ img.displayed  {
 	padding: 15px 15px 0px 15px;
 	box-shadow: rgb(239, 239, 239) 0;
 	overflow: none;
-	}
+}
 	
-.links {
+/* Links within the three boxes in center of page*/
+.links { 
 	color: rgb(51, 102, 153);
 	font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
 	font-size: 21px;
@@ -204,6 +207,7 @@ img.displayed  {
 	text-decoration: underline;
 }
 
+/*Within the three boxes in center of page*/
 .bold {
 	color: rgb(204, 0, 0);
 	font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
@@ -214,30 +218,32 @@ img.displayed  {
 	text-align: center;
 }
 
+/*Within the three boxes in center of page*/
 .description {
-color: rgb(34, 34, 34);
-font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
-font-size: 14px;
-font-weight:200;
-line-height: 19.6px;
-margin-top: 5px;
-text-align: center;
+	color: rgb(34, 34, 34);
+	font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
+	font-size: 14px;
+	font-weight:200;
+	line-height: 19.6px;
+	margin-top: 5px;
+	text-align: center;
 }
 
+/*One class for each arrow image*/
 .basearrow {
-position: absolute;
-top: -25px;
-right: -25px;
+	position: absolute;
+	top: -25px;
+	right: -25px;
 }
 
 .higharrow {
-position: absolute;
-top: -25px;
-right: -25px;
+	position: absolute;
+	top: -25px;
+	right: -25px;
 }
 
 .camparrow {
-position: absolute;
-top: -25px;
-right: 145px;
+	position: absolute;
+	top: -25px;
+	right: 145px;
 }
