@@ -159,7 +159,7 @@ span {
 	position: relative;
 	text-align: center;
 	margin: auto;
-	width: 65%;
+	width: 500px;
 	min-width: 800px;
 	overflow: auto;
 }
